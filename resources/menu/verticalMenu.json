@@ -1,0 +1,118 @@
+{
+  "menu": [
+    {
+      "menuHeader": "Menu Super User"
+    },
+    {
+      "url": "https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1/app/email",
+      "name": "Pilih Kabupaten",
+      "icon": "menu-icon tf-icons mdi mdi-view-grid-outline",
+      "slug": "app-email",
+      "target": "_blank",
+      "badge": [
+        "label-primary fs-tiny",
+        ""
+      ]
+    },
+    {
+      "url": "https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1/app/chat",
+      "name": "Tambah Kabupaten",
+      "icon": "menu-icon tf-icons mdi mdi-message-outline",
+      "slug": "app-chat",
+      "target": "_blank",
+      "badge": [
+        "label-primary fs-tiny",
+        ""
+      ]
+    },
+    {
+      "menuHeader": "Menu Kabupaten"
+    },
+    {
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons mdi mdi-credit-card-outline",
+      "slug": "cards-basic",
+      "url": "cards/basic"
+    },
+    {
+      "url": "icons/icons-mdi",
+      "icon": "menu-icon tf-icons mdi mdi-flip-to-front",
+      "name": "Tentang Kabupaten",
+      "slug": "icons-mdi"
+    },
+    {
+      "name": "Wisata Kabupaten",
+      "icon": "menu-icon tf-icons mdi mdi-archive-outline",
+      "slug": "ui",
+      "submenu": [
+        {
+          "url": "ui/accordion",
+          "name": "Gratis",
+          "slug": "ui-accordion"
+        },
+        {
+          "url": "ui/typography",
+          "name": "Berbayar",
+          "slug": "ui-typography"
+        }
+      ]
+    },
+    {
+      "name": "Pelaku Usaha",
+      "icon": "menu-icon tf-icons mdi mdi-account-outline",
+      "slug": "Berbayar",
+      "submenu": [
+        {
+          "url": "extended/ui-perfect-scrollbar",
+          "name": "Mitra",
+          "slug": "extended-ui-perfect-scrollbar"
+        },
+        {
+          "url": "extended/ui-text-divider",
+          "name": "Produk Mitra",
+          "slug": "extended-ui-text-divider"
+        }
+      ]
+    },
+    {
+      "url": "icons/icons-mdi",
+      "icon": "menu-icon tf-icons mdi mdi-form-select",
+      "name": "Transaksi",
+      "slug": "icons-mdi"
+    },
+    {
+      "url": "icons/icons-mdi",
+      "icon": "menu-icon tf-icons mdi mdi-checkbox-marked-circle-outline",
+      "name": "Aktivasi Mitra",
+      "slug": "icons-mdi"
+    },
+    {
+      "url": "icons/icons-mdi",
+      "icon": "menu-icon tf-icons mdi mdi-account-outline",
+      "name": "Wisatawan",
+      "slug": "icons-mdi"
+    },
+    {
+      "menuHeader": "User Management"
+    },
+    {
+      "url": "tables/basic",
+      "icon": "menu-icon tf-icons mdi mdi-account-outline",
+      "name": "User",
+      "slug": "tables-basic"
+    },
+    {
+      "url": "tables/basic",
+      "icon": "menu-icon tf-icons mdi mdi-google-circles-extended",
+      "name": "Tambah User",
+      "slug": "tables-basic"
+    },
+    {
+      "url": "https://themeselection.com/demo/materio-bootstrap-html-admin-template/documentation/laravel-introduction.html",
+      "icon": "menu-icon tf-icons mdi mdi-lock-open-outline",
+      "name": "Logout",
+      "slug": "documentation",
+      "target": "_blank"
+    }
+  ]
+}
